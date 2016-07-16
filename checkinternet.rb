@@ -14,6 +14,6 @@ class Checkinternet < Formula
   end
 
   test do
-    system python3, "setup.py", "test"
+    system "python3", "setup.py", "test"
   end
 end
