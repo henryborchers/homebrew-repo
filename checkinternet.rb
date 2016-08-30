@@ -1,8 +1,8 @@
 class Checkinternet < Formula
   desc "Checks internet once a minute to see the computer has access."
   homepage "https://github.com/henryborchers/checkInternet"
-  url "https://github.com/henryborchers/checkInternet/archive/checkInternet_v0.2.8.tar.gz"
-  sha256 "1e866f909ab13221dbd5e1af2abc8a73eb6b3c43dea4175156b697924b5d5cfd"
+  url "https://github.com/henryborchers/checkInternet/archive/checkInternet_v0.2.9.tar.gz"
+  sha256 "6baa2c005695ead62daf6d569915b7b0c45c8c724cf0a4f7ca3b3502a6ec6431"
 
   depends_on :python3
 
