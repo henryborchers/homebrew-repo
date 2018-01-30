@@ -5,7 +5,7 @@ class Tsv2csv < Formula
   version "0.0.4"
   sha256 "5b58c487b5141353b5936e935506226dea667c9e3dee4bac99a4cc20249ef674"
 
-  depends_on :python3
+  depends_on "python3"
 
   def install
   ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python3/site-packages"
